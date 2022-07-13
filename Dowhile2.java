@@ -9,13 +9,13 @@ public class Dowhile2 {
 		Scanner leia = new Scanner(System.in);
 		
 
-		int x, media, soma=0, t=0;
+		int x,  soma=0, t=0;
 		
 		do {
 			System.out.println("Coloque um número :");
 			x=leia.nextInt();
 			
-			if(x%3 == 0) {
+			if(x%3 == 0 & n1!=0) {
 				soma=soma + x;
 				t++;
 			}
